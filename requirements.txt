@@ -1,0 +1,7 @@
+python-dotenv
+pydantic>=2
+openai>=1.40.0
+langchain
+langgraph
+fastapi uvicorn
+datasets
