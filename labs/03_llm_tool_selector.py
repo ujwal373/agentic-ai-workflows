@@ -1,6 +1,8 @@
 import os, json, time
 from openai import OpenAI
 from pydantic import BaseModel
+from dotenv import load_dotenv
+load_dotenv()
 
 # ---- setup ----
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
