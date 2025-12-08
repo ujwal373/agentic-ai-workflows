@@ -5,3 +5,8 @@ langchain
 langgraph
 fastapi uvicorn
 datasets
+faiss-cpu
+numpy
+pandas
+plotly
+streamlit
